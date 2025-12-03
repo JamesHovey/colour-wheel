@@ -1,0 +1,194 @@
+2025-12-03T09:19:36.617226898Z [inf]  
+2025-12-03T09:19:39.090008839Z [inf]  [35m[Region: europe-west4][0m
+2025-12-03T09:19:39.127623967Z [inf]  
+2025-12-03T09:19:39.127664827Z [inf]  [38;2;125;86;243m╭─────────────────╮[0m
+2025-12-03T09:19:39.127669124Z [inf]  [38;2;125;86;243m│[0m Railpack 0.15.1 [38;2;125;86;243m│[0m
+2025-12-03T09:19:39.127672399Z [inf]  [38;2;125;86;243m╰─────────────────╯[0m
+2025-12-03T09:19:39.127677417Z [inf]  
+2025-12-03T09:19:39.127680656Z [inf]  [97m↳ Detected Node[0m
+2025-12-03T09:19:39.127683806Z [inf]  [97m↳ Using npm package manager[0m
+2025-12-03T09:19:39.127687085Z [inf]  
+2025-12-03T09:19:39.127689869Z [inf]  [1mPackages[0m
+2025-12-03T09:19:39.127692680Z [inf]  [38;5;238m──────────[0m
+2025-12-03T09:19:39.127695848Z [inf]  [95mnode[0m  [38;5;238m│[0m  [96m22.21.1[0m  [38;5;238m│[0m  railpack default (22)
+2025-12-03T09:19:39.127698952Z [inf]  
+2025-12-03T09:19:39.127701855Z [inf]  [1mSteps[0m
+2025-12-03T09:19:39.127704633Z [inf]  [38;5;238m──────────[0m
+2025-12-03T09:19:39.127707600Z [inf]  [95m▸ install[0m
+2025-12-03T09:19:39.127710473Z [inf]  [38;5;245m$[0m [1mnpm ci[0m
+2025-12-03T09:19:39.127713427Z [inf]  
+2025-12-03T09:19:39.127716153Z [inf]  [95m▸ build[0m
+2025-12-03T09:19:39.127719041Z [inf]  [38;5;245m$[0m [1mnpm run build[0m
+2025-12-03T09:19:39.127721950Z [inf]  
+2025-12-03T09:19:39.127724709Z [inf]  [1mDeploy[0m
+2025-12-03T09:19:39.127727311Z [inf]  [38;5;238m──────────[0m
+2025-12-03T09:19:39.127729896Z [inf]  [38;5;245m$[0m [1mnpm run start[0m
+2025-12-03T09:19:39.127732668Z [inf]  
+2025-12-03T09:19:39.127735344Z [inf]  
+2025-12-03T09:19:39.130525366Z [inf]  Successfully prepared Railpack plan for build
+2025-12-03T09:19:39.130556405Z [inf]  
+2025-12-03T09:19:39.130561573Z [inf]  
+2025-12-03T09:19:39.130901182Z [inf]  context: 11r4-7iQ8
+2025-12-03T09:19:39.277458253Z [inf]  [internal] load build definition from railpack-plan.json
+2025-12-03T09:19:39.277496097Z [inf]  [internal] load build definition from railpack-plan.json
+2025-12-03T09:19:39.277512854Z [inf]  [internal] load build definition from railpack-plan.json
+2025-12-03T09:19:39.277523017Z [inf]  [internal] load build definition from railpack-plan.json
+2025-12-03T09:19:39.286180189Z [inf]  [internal] load build definition from railpack-plan.json
+2025-12-03T09:19:39.287730600Z [inf]  resolve image config for docker-image://ghcr.io/railwayapp/railpack-frontend:v0.15.1
+2025-12-03T09:19:39.591020331Z [inf]  resolve image config for docker-image://ghcr.io/railwayapp/railpack-frontend:v0.15.1
+2025-12-03T09:19:39.670357602Z [inf]  load build definition from railpack-plan.json
+2025-12-03T09:19:39.670415766Z [inf]  load build definition from railpack-plan.json
+2025-12-03T09:19:39.670437028Z [inf]  load build definition from railpack-plan.json
+2025-12-03T09:19:39.679890432Z [inf]  load build definition from railpack-plan.json
+2025-12-03T09:19:39.696811273Z [inf]  [railpack] merge $packages:apt:runtime, $packages:mise, $build, $build
+2025-12-03T09:19:39.696858043Z [inf]  copy /app
+2025-12-03T09:19:39.696866118Z [inf]  copy /root/.cache
+2025-12-03T09:19:39.696875021Z [inf]  copy /app/node_modules
+2025-12-03T09:19:39.696885729Z [inf]  npm run build
+2025-12-03T09:19:39.696894325Z [inf]  [railpack] secrets hash
+2025-12-03T09:19:39.696903533Z [inf]  copy / /app
+2025-12-03T09:19:39.696929179Z [inf]  loading .
+2025-12-03T09:19:39.696937802Z [inf]  [railpack] secrets hash
+2025-12-03T09:19:39.696952129Z [inf]  [railpack] secrets hash
+2025-12-03T09:19:39.698192419Z [inf]  [railpack] secrets hash
+2025-12-03T09:19:39.698215934Z [inf]  loading .
+2025-12-03T09:19:39.698223814Z [inf]  install apt packages: libatomic1
+2025-12-03T09:19:39.698230836Z [inf]  create mise config
+2025-12-03T09:19:39.698244963Z [inf]  create mise config
+2025-12-03T09:19:39.698259826Z [inf]  install mise packages: node
+2025-12-03T09:19:39.706369587Z [inf]  [railpack] secrets hash
+2025-12-03T09:19:39.720134895Z [inf]  loading .
+2025-12-03T09:19:39.87744296Z [inf]  Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+
+2025-12-03T09:19:39.893188642Z [inf]  Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+
+2025-12-03T09:19:39.898601989Z [inf]  Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+
+2025-12-03T09:19:39.910994611Z [inf]  mise node@22.21.1    install
+
+2025-12-03T09:19:39.911856421Z [inf]  mise node@22.21.1    download node-v22.21.1-linux-x64.tar.gz
+
+2025-12-03T09:19:39.9458317Z [inf]  Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8791 kB]
+
+2025-12-03T09:19:40.012988404Z [inf]  Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+
+2025-12-03T09:19:40.02567789Z [inf]  Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [289 kB]
+
+2025-12-03T09:19:40.334117765Z [inf]  mise node@22.21.1    extract node-v22.21.1-linux-x64.tar.gz
+
+2025-12-03T09:19:40.917927255Z [inf]  Fetched 9342 kB in 1s (8713 kB/s)
+Reading package lists...
+2025-12-03T09:19:41.330017024Z [inf]  mise node@22.21.1    node -v
+
+2025-12-03T09:19:41.333432042Z [inf]  mise node@22.21.1    v22.21.1
+
+2025-12-03T09:19:41.334605619Z [inf]  mise node@22.21.1    npm -v
+
+2025-12-03T09:19:41.33502601Z [inf]  
+
+2025-12-03T09:19:41.34998999Z [inf]  Reading package lists...
+2025-12-03T09:19:41.418863556Z [inf]  mise node@22.21.1    10.9.4
+
+2025-12-03T09:19:41.435058542Z [inf]  mise node@22.21.1  ✓ installed
+
+2025-12-03T09:19:41.527315606Z [inf]  install mise packages: node
+2025-12-03T09:19:41.528250510Z [inf]  copy / /app
+2025-12-03T09:19:41.569157944Z [inf]  copy / /app
+2025-12-03T09:19:41.570149740Z [inf]  mkdir -p /app/node_modules/.cache
+2025-12-03T09:19:41.597676284Z [inf]  copy /mise/shims
+2025-12-03T09:19:41.605697780Z [inf]  copy /mise/shims
+2025-12-03T09:19:41.726995421Z [inf]  mkdir -p /app/node_modules/.cache
+2025-12-03T09:19:41.727744446Z [inf]  npm ci
+2025-12-03T09:19:41.770944766Z [inf]  
+
+2025-12-03T09:19:41.780913521Z [inf]  Building dependency tree...
+2025-12-03T09:19:41.871035786Z [inf]  
+Reading state information...
+2025-12-03T09:19:41.871057402Z [inf]  
+
+2025-12-03T09:19:41.892448804Z [inf]  npm warn config production Use `--omit=dev` instead.
+
+2025-12-03T09:19:41.983458728Z [inf]  The following NEW packages will be installed:
+
+2025-12-03T09:19:41.983863481Z [inf]    libatomic1
+
+2025-12-03T09:19:42.004293446Z [inf]  0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9376 B of archives.
+After this operation, 46.1 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libatomic1 amd64 12.2.0-14+deb12u1 [9376 B]
+
+2025-12-03T09:19:42.090781647Z [inf]  debconf: delaying package configuration, since apt-utils is not installed
+
+2025-12-03T09:19:42.108611285Z [inf]  Fetched 9376 B in 0s (569 kB/s)
+
+2025-12-03T09:19:42.120176557Z [inf]  Selecting previously unselected package libatomic1:amd64.
+(Reading database ... 
+2025-12-03T09:19:42.121269003Z [inf]  (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%
+2025-12-03T09:19:42.121896024Z [inf]  (Reading database ... 75%
+2025-12-03T09:19:42.122191084Z [inf]  (Reading database ... 80%
+2025-12-03T09:19:42.122288122Z [inf]  (Reading database ... 85%
+2025-12-03T09:19:42.122472151Z [inf]  (Reading database ... 90%
+2025-12-03T09:19:42.122718032Z [inf]  (Reading database ... 95%
+2025-12-03T09:19:42.123391736Z [inf]  (Reading database ... 100%(Reading database ... 6622 files and directories currently installed.)
+
+2025-12-03T09:19:42.123772773Z [inf]  Preparing to unpack .../libatomic1_12.2.0-14+deb12u1_amd64.deb ...
+
+2025-12-03T09:19:42.12564634Z [inf]  Unpacking libatomic1:amd64 (12.2.0-14+deb12u1) ...
+
+2025-12-03T09:19:42.139450356Z [inf]  Setting up libatomic1:amd64 (12.2.0-14+deb12u1) ...
+
+2025-12-03T09:19:42.14290563Z [inf]  Processing triggers for libc-bin (2.36-9+deb12u13) ...
+
+2025-12-03T09:19:42.170945434Z [inf]  install apt packages: libatomic1
+2025-12-03T09:19:42.335936585Z [inf]  copy /mise/installs
+2025-12-03T09:19:42.826633507Z [inf]  copy /mise/installs
+2025-12-03T09:19:42.827770070Z [inf]  copy /usr/local/bin/mise
+2025-12-03T09:19:42.894516899Z [inf]  copy /usr/local/bin/mise
+2025-12-03T09:19:42.895637268Z [inf]  copy /etc/mise/config.toml
+2025-12-03T09:19:42.907617251Z [inf]  copy /etc/mise/config.toml
+2025-12-03T09:19:42.908700574Z [inf]  copy /root/.local/state/mise
+2025-12-03T09:19:42.919590905Z [inf]  copy /root/.local/state/mise
+2025-12-03T09:19:43.174004161Z [inf]  npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+
+2025-12-03T09:19:43.495756688Z [inf]  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+
+2025-12-03T09:19:44.282521208Z [inf]  npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+
+2025-12-03T09:19:44.283145933Z [inf]  npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+
+2025-12-03T09:19:44.406862245Z [inf]  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+2025-12-03T09:19:45.941988564Z [inf]  npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+2025-12-03T09:19:55.530405484Z [inf]  
+> colour-wheel@0.1.0 postinstall
+> prisma generate
+
+
+2025-12-03T09:19:56.446528136Z [inf]  Prisma schema loaded from prisma/schema.prisma
+
+2025-12-03T09:19:56.447415367Z [inf]  Error: Prisma schema validation - (get-config wasm)
+Error code: P1012
+error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+  -->  prisma/schema.prisma:10
+   | 
+ 9 |   provider = "postgresql"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[Context: getConfig]
+
+Prisma CLI Version : 7.0.1
+
+2025-12-03T09:19:56.459830274Z [inf]  npm error code 1
+
+2025-12-03T09:19:56.459844913Z [inf]  npm error path /app
+npm error command failed
+
+2025-12-03T09:19:56.45988019Z [inf]  npm error command sh -c prisma generate
+
+2025-12-03T09:19:56.460774247Z [inf]  npm error A complete log of this run can be found in: /root/.npm/_logs/2025-12-03T09_19_41_872Z-debug-0.log
+
+2025-12-03T09:19:56.593971422Z [err]  npm ci
+2025-12-03T09:19:56.609469615Z [err]  ERROR: failed to build: failed to solve: process "npm ci" did not complete successfully: exit code: 1
