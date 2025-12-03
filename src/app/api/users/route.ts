@@ -44,17 +44,30 @@ export async function POST(request: Request) {
           { status: 409 }
         );
       }
+      // Table doesn't exist - migrations haven't run
+      if (error.code === 'P2021') {
+        return NextResponse.json(
+          { error: 'Database tables not found. Please check migrations.' },
+          { status: 503 }
+        );
+      }
+      return NextResponse.json(
+        { error: `Database error: ${error.code}` },
+        { status: 500 }
+      );
     }
 
     if (error instanceof Prisma.PrismaClientInitializationError) {
       return NextResponse.json(
-        { error: 'Database connection failed. Please try again later.' },
+        { error: 'Database connection failed. Please check DATABASE_URL.' },
         { status: 503 }
       );
     }
 
+    // Return actual error message in development for debugging
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json(
-      { error: 'Failed to create user. Please try again.' },
+      { error: `Failed to create user: ${errorMessage}` },
       { status: 500 }
     );
   }
