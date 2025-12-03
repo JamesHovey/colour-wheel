@@ -1,0 +1,100 @@
+2025-12-03T09:31:11.000000000Z [inf]  Starting Container
+2025-12-03T09:31:12.680694372Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:12.680701673Z [inf]  
+2025-12-03T09:31:12.680709115Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:12.680716356Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:12.680723778Z [inf]  
+2025-12-03T09:31:12.680731384Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:12.680739551Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:13.966284305Z [inf]  
+2025-12-03T09:31:13.966295861Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:13.966302341Z [err]  
+2025-12-03T09:31:13.966309139Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:15.402181449Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:15.402271835Z [inf]  
+2025-12-03T09:31:15.402280786Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:15.402289396Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:15.402295545Z [inf]  
+2025-12-03T09:31:16.322634872Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:16.322643023Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:16.322650308Z [inf]  
+2025-12-03T09:31:16.322658369Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:16.322664471Z [err]  
+2025-12-03T09:31:16.322671604Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:17.463392019Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:17.463402617Z [inf]  
+2025-12-03T09:31:17.463577340Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:17.463612043Z [inf]  
+2025-12-03T09:31:17.463622323Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:19.203480054Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:19.203487534Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:19.203494773Z [inf]  
+2025-12-03T09:31:19.203502096Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:19.203509218Z [err]  
+2025-12-03T09:31:19.203517332Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:20.380173266Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:20.380178693Z [inf]  
+2025-12-03T09:31:20.380184521Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:20.380190538Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:20.380196723Z [inf]  
+2025-12-03T09:31:21.441217452Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:21.441224311Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:22.244954483Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:22.245022512Z [inf]  
+2025-12-03T09:31:22.245033919Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:22.245041568Z [err]  
+2025-12-03T09:31:23.225630914Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:23.225642000Z [inf]  
+2025-12-03T09:31:23.225653054Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:23.225662154Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:23.225670361Z [inf]  
+2025-12-03T09:31:24.348097455Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:24.348105266Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:25.250394616Z [inf]  
+2025-12-03T09:31:25.250402203Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:25.250408488Z [err]  
+2025-12-03T09:31:25.250415006Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:27.350010612Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:27.350016628Z [inf]  
+2025-12-03T09:31:27.351143763Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:27.351153040Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:27.351163164Z [inf]  
+2025-12-03T09:31:28.523453632Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:28.529464881Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:28.529478312Z [inf]  
+2025-12-03T09:31:28.529486103Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:28.529492783Z [err]  
+2025-12-03T09:31:28.529499698Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:29.799902216Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:29.799910616Z [inf]  
+2025-12-03T09:31:29.799919065Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:29.799926290Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:29.799933824Z [inf]  
+2025-12-03T09:31:30.739026304Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:30.739071006Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:31.785015464Z [inf]  
+2025-12-03T09:31:31.785025516Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:31.785033862Z [err]  
+2025-12-03T09:31:31.785044059Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:32.884074422Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:32.884080831Z [inf]  
+2025-12-03T09:31:32.884086999Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:32.884092512Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:32.884097960Z [inf]  
+2025-12-03T09:31:33.613942609Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:33.618465249Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:34.907593023Z [err]  Please make sure your database server is running at `host:5432`.
+2025-12-03T09:31:34.907608490Z [inf]  
+2025-12-03T09:31:34.907615342Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:34.907624647Z [err]  
+2025-12-03T09:31:35.911782262Z [inf]  > prisma migrate deploy && next start
+2025-12-03T09:31:35.911793928Z [inf]  
+2025-12-03T09:31:35.911798309Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-12-03T09:31:35.911819999Z [inf]  
+2025-12-03T09:31:35.911828621Z [inf]  > colour-wheel@0.1.0 start
+2025-12-03T09:31:36.776425138Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-03T09:31:36.776434729Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "host:5432"
+2025-12-03T09:31:37.843137571Z [inf]  
+2025-12-03T09:31:37.843142922Z [err]  Error: P1001: Can't reach database server at `host:5432`
+2025-12-03T09:31:37.843150327Z [err]  
+2025-12-03T09:31:37.843156659Z [err]  Please make sure your database server is running at `host:5432`.
