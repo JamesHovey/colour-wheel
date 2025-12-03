@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  username  String
+  email     String    @unique
+  createdAt DateTime  @default(now()) @map("created_at")
+  results   Result[]
+
+  @@map("users")
+}
+
+model Result {
+  id            Int       @id @default(autoincrement())
+  userId        Int       @map("user_id")
+  user          User      @relation(fields: [userId], references: [id])
+  redScore      Int       @map("red_score")
+  yellowScore   Int       @map("yellow_score")
+  blueScore     Int       @map("blue_score")
+  greenScore    Int       @map("green_score")
+  redPercent    Float     @map("red_percent")
+  yellowPercent Float     @map("yellow_percent")
+  bluePercent   Float     @map("blue_percent")
+  greenPercent  Float     @map("green_percent")
+  completedAt   DateTime  @default(now()) @map("completed_at")
+  answers       Answer[]
+
+  @@map("results")
+}
+
+model Answer {
+  id          Int     @id @default(autoincrement())
+  resultId    Int     @map("result_id")
+  result      Result  @relation(fields: [resultId], references: [id])
+  questionId  Int     @map("question_id")
+  colour      String
+  answerValue Int     @map("answer_value")
+
+  @@map("answers")
+}
